@@ -1,0 +1,11 @@
+version: 2
+
+sources: 
+  - name: crb_data
+    database: PROJECT_DB
+    schema: STAGE
+    tables:
+      - name: CUSTOMERS_DATA
+      - name: PRODUCTS_DATA
+      - name: LOCATIONS_DATA
+      - name: TRANSACTIONS_DATA

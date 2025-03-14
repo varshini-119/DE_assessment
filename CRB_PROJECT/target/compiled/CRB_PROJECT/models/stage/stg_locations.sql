@@ -1,0 +1,7 @@
+SELECT
+    * 
+FROM PROJECT_DB.STAGE.LOCATIONS_DATA
+WHERE 
+    customer_id 
+IS 
+    NOT NULL
