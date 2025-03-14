@@ -1,0 +1,21 @@
+{
+	"name": "LS_Sql_Server",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "JM-DKT-029",
+			"database": "PROJECT_DB",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "Windows",
+			"userName": "AzureAD\\PaluriVarshini",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3MDY0YmY3Mi05YjQxLTQ1ZjEtODE2OS0zMDljNTAyNTRmZmUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "self-hosted-integrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

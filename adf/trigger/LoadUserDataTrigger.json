@@ -1,0 +1,25 @@
+{
+	"name": "LoadUserDataTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_LoadUserData",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2025-03-06T12:17:00",
+				"endTime": "2025-03-06T18:00:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

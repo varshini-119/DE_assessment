@@ -1,0 +1,7 @@
+{
+	"name": "self-hosted-ir",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "To connect Local SSMS with ADF"
+	}
+}

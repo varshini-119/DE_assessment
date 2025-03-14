@@ -1,0 +1,11 @@
+{
+	"name": "AzureBlobStorage1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"sasUri": "https://storageaccount812.blob.core.windows.net/?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-03-14T12:08:30Z&st=2025-03-14T04:08:30Z&spr=https&sig=xWW9nk%2FSz8HS67I%2BmBFZ5ixr3f9acSLFfed0RxDTlGQ%3D?Cutie@jman"
+		}
+	}
+}
