@@ -20,6 +20,5 @@
 			"firstRowAsHeader": true
 		},
 		"schema": []
-	},
-	"type": "Microsoft.DataFactory/factories/datasets"
+	}
 }

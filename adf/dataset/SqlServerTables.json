@@ -1,12 +1,12 @@
 {
-	"name": "AzureSqlTable12",
+	"name": "SqlServerTables",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureSqlDatabase1",
+			"referenceName": "LS_SqlServer",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "AzureSqlTable",
+		"type": "SqlServerTable",
 		"schema": []
 	}
 }

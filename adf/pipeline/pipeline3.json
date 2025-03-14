@@ -44,7 +44,11 @@
 				"inputs": [
 					{
 						"referenceName": "AzureSqlTable1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"schema1": "schema",
+							"table1": "table"
+						}
 					}
 				],
 				"outputs": [

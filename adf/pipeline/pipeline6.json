@@ -74,10 +74,7 @@
 										"typeProperties": {
 											"source": {
 												"type": "AzureSqlSource",
-												"sqlReaderQuery": {
-													"value": "SELECT * FROM [@{item().Prop_0}].[@{item().Prop_1}]",
-													"type": "Expression"
-												},
+												"sqlReaderQuery": "SELECT * FROM [@{item().Prop_0}].[@{item().Prop_1}]",
 												"queryTimeout": "02:00:00",
 												"partitionOption": "None"
 											},
@@ -128,10 +125,7 @@
 										"typeProperties": {
 											"source": {
 												"type": "AzureSqlSource",
-												"sqlReaderQuery": {
-													"value": "SELECT * FROM [@{item().Prop_0}].[@{item().Prop_1}]",
-													"type": "Expression"
-												},
+												"sqlReaderQuery": "SELECT * FROM [@{item().Prop_0}].[@{item().Prop_1}]",
 												"queryTimeout": "02:00:00",
 												"partitionOption": "None"
 											},
@@ -172,8 +166,6 @@
 				}
 			}
 		],
-		"annotations": [],
-		"lastPublishTime": "2025-03-06T12:20:58Z"
-	},
-	"type": "Microsoft.DataFactory/factories/pipelines"
+		"annotations": []
+	}
 }

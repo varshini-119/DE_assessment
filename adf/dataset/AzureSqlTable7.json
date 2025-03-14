@@ -38,6 +38,5 @@
 			"schema": "raw",
 			"table": "userData"
 		}
-	},
-	"type": "Microsoft.DataFactory/factories/datasets"
+	}
 }

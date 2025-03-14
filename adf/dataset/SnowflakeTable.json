@@ -1,0 +1,16 @@
+{
+	"name": "SnowflakeTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Snowflake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [],
+		"typeProperties": {
+			"schema": "STAGE",
+			"table": "PRODUCTS_DATA"
+		}
+	}
+}
