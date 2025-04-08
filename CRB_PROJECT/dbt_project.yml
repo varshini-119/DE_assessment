@@ -46,3 +46,7 @@ models:
     reporting:
       +materialized: table
       +schema: report
+
+    intermediate:
+      +materialized: table
+      +schema: intermediate
